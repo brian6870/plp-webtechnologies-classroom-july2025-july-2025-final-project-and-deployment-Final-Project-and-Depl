@@ -1,6 +1,6 @@
 # Avila Coin - Web3 Cryptocurrency Project
 
-Avila Coin is a next-generation Web3 cryptocurrency designed for scalability, security, and sustainability. This project showcases a modern, responsive landing page for Avila Coin, highlighting its technology, tokenomics, roadmap, and team.
+Avila Coin is a next-generation Web3 cryptocurrency designed for scalability, security, and sustainability. This project showcases a modern, responsive landing page for Avila Coin, highlighting its technology, tokenomics, roadmap, and team.https://brian6870.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/
 
 ## Features
 
