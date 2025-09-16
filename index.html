@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avila - Web3 Cryptocurrency</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo" onclick="showPage('home'); return false;">Avila<span>Coin</span></a>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+            <nav>
+                <ul id="navMenu">
+                    <li><a href="#" class="nav-link active" onclick="showPage('home'); return false;">Home</a></li>
+                    <li><a href="#" class="nav-link" onclick="showPage('technology'); return false;">Technology</a></li>
+                    <li><a href="#" class="nav-link" onclick="showPage('tokenomics'); return false;">Tokenomics</a></li>
+                    <li><a href="#" class="nav-link" onclick="showPage('roadmap'); return false;">Roadmap</a></li>
+                    <li><a href="#" class="nav-link" onclick="showPage('team'); return false;">Team</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Page -->
+    <section id="home" class="page active">
+        <div class="hero">
+            <div class="container">
+                <h1>Revolutionizing Web3 with Avila</h1>
+                <p>A next-generation cryptocurrency designed for scalability, security, and sustainability in the decentralized ecosystem.</p>
+                <a href="#" class="btn" onclick="showPage('technology'); return false;">Explore Technology</a>
+            </div>
+        </div>
+        
+        <div class="container">
+            <h2>What is Avila?</h2>
+            <p>Avila is a groundbreaking Web3 cryptocurrency built on a proof-of-stake consensus mechanism with advanced sharding capabilities. Our mission is to create a blockchain ecosystem that is truly scalable, energy-efficient, and accessible to everyone.</p>
+            
+            <div class="card-grid">
+                <div class="card">
+                    <h3>High Scalability</h3>
+                    <p>Avila's innovative sharding technology allows for thousands of transactions per second, solving the scalability issues that plague older blockchains.</p>
+                </div>
+                <div class="card">
+                    <h3>Energy Efficient</h3>
+                    <p>Using proof-of-stake consensus, Avila consumes 99.9% less energy than proof-of-work cryptocurrencies, making it environmentally sustainable.</p>
+                </div>
+                <div class="card">
+                    <h3>Secure by Design</h3>
+                    <p>Advanced cryptographic techniques and formal verification ensure that the Avila network remains secure against emerging threats.</p>
+                </div>
+            </div>
+            
+            <h2>Why Choose Avila?</h2>
+            <ul class="feature-list">
+                <li>Lightning-fast transactions with sub-second finality</li>
+                <li>Low transaction fees (less than $0.01 per transaction)</li>
+                <li>Cross-chain interoperability with major blockchain networks</li>
+                <li>Governance model that gives token holders voting rights</li>
+                <li>Designed for decentralized applications and smart contracts</li>
+            </ul>
+            
+            <div style="text-align: center; margin: 3rem 0;">
+                <a href="#" class="btn btn-outline" onclick="showPage('tokenomics'); return false;">View Tokenomics</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Page -->
+    <section id="technology" class="page">
+        <div class="container">
+            <h1>Avila Technology</h1>
+            <p>Avila leverages cutting-edge blockchain technology to create a platform that is secure, scalable, and sustainable.</p>
+            
+            <h2>Consensus Mechanism</h2>
+            <p>Avila uses a novel proof-of-stake consensus algorithm called "Proof-of-Engagement" that rewards users for both staking and participating in network operations.</p>
+            
+            <h2>Sharding Architecture</h2>
+            <p>Our dynamic state sharding technology allows the network to scale horizontally as demand increases, maintaining high throughput during peak usage.</p>
+            
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Network Layer</h3>
+                    <p>Gossip protocol for efficient communication between nodes with adaptive routing based on network conditions.</p>
+                </div>
+                <div class="card">
+                    <h3>Consensus Layer</h3>
+                    <p>Byzantine fault tolerant consensus with immediate finality, ensuring transactions cannot be reversed once confirmed.</p>
+                </div>
+                <div class="card">
+                    <h3>Execution Layer</h3>
+                    <p>WebAssembly-based virtual machine for executing smart contracts with high performance and security.</p>
+                </div>
+            </div>
+            
+            <h2>Smart Contract Platform</h2>
+            <p>Avila supports smart contracts written in multiple programming languages, making it accessible to developers from various backgrounds.</p>
+            
+            <h2>Interoperability</h2>
+            <p>Cross-chain bridges allow Avila to communicate with Ethereum, Bitcoin, and other major blockchain networks, enabling asset transfers and data exchange.</p>
+        </div>
+    </section>
+
+    <!-- Tokenomics Page -->
+    <section id="tokenomics" class="page">
+        <div class="container">
+            <h1>Avila Tokenomics</h1>
+            <p>The Avila token (AVL) is the native cryptocurrency of the Avila network, used for transactions, staking, and governance.</p>
+            
+            <h2>Token Distribution</h2>
+            <p>Total supply: 1,000,000,000 AVL tokens</p>
+            
+            <div class="card-grid">
+                <div class="card">
+                    <h3>40% - Public Sale</h3>
+                    <p>Available to the community through various sale rounds with vesting schedules to ensure fair distribution.</p>
+                </div>
+                <div class="card">
+                    <h3>25% - Ecosystem Fund</h3>
+                    <p>Allocated for grants, partnerships, and initiatives to grow the Avila ecosystem.</p>
+                </div>
+                <div class="card">
+                    <h3>15% - Team & Advisors</h3>
+                    <p>With a 4-year vesting period to ensure long-term commitment to the project.</p>
+                </div>
+                <div class="card">
+                    <h3>10% - Foundation Reserve</h3>
+                    <p>Reserved for future development, research, and unexpected opportunities.</p>
+                </div>
+                <div class="card">
+                    <h3>10% - Staking Rewards</h3>
+                    <p>Allocated for staking rewards to secure the network and incentivize participation.</p>
+                </div>
+            </div>
+            
+            <h2>Token Utility</h2>
+            <ul class="feature-list">
+                <li>Pay for transaction fees and computational services on the network</li>
+                <li>Stake to secure the network and earn staking rewards</li>
+                <li>Participate in governance by voting on protocol upgrades</li>
+                <li>Collateral for decentralized applications and financial services</li>
+            </ul>
+            
+            <h2>Inflation Model</h2>
+            <p>Avila has a controlled inflation model starting at 5% annually and gradually decreasing to 1% over 10 years. This inflation funds staking rewards and ecosystem development.</p>
+        </div>
+    </section>
+
+    <!-- Roadmap Page -->
+    <section id="roadmap" class="page">
+        <div class="container">
+            <h1>Avila Roadmap</h1>
+            <p>Our strategic plan for developing and growing the Avila ecosystem.</p>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Q4 2023 - Testnet Launch</h3>
+                        <p>Initial testnet release with basic functionality and early developer tools.</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Q2 2024 - Mainnet Launch</h3>
+                        <p>Mainnet launch with staking, basic smart contracts, and wallet support.</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Q4 2024 - Ecosystem Growth</h3>
+                        <p>DeFi partnerships, cross-chain bridges, and developer incentive programs.</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>2025 - Scaling Solutions</h3>
+                        <p>Implementation of advanced sharding and layer-2 scaling solutions.</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>2026+ - Mass Adoption</h3>
+                        <p>Focus on enterprise adoption, regulatory compliance, and global expansion.</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Page -->
+    <section id="team" class="page">
+        <div class="container">
+            <h1>Avila Team</h1>
+            <p>Our team consists of experienced blockchain developers, cryptographers, and business professionals dedicated to advancing Web3 technology.</p>
+            
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="team-img">JD</div>
+                    <h3>Jane Doe</h3>
+                    <p>Founder & CEO</p>
+                    <p>Former lead blockchain engineer at TechCorp with 10+ years of experience.</p>
+                </div>
+                
+                <div class="team-member">
+                    <div class="team-img">JS</div>
+                    <h3>John Smith</h3>
+                    <p>CTO</p>
+                    <p>PhD in Cryptography and previously worked on security at SecureNet.</p>
+                </div>
+                
+                <div class="team-member">
+                    <div class="team-img">AJ</div>
+                    <h3>Alice Johnson</h3>
+                    <p>Lead Developer</p>
+                    <p>Full-stack developer with expertise in distributed systems and Rust.</p>
+                </div>
+                
+                <div class="team-member">
+                    <div class="team-img">RW</div>
+                    <h3>Robert Williams</h3>
+                    <p>Ecosystem Growth</p>
+                    <p>Business development specialist with extensive crypto industry connections.</p>
+                </div>
+            </div>
+            
+            <h2>Advisors</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="team-img">ES</div>
+                    <h3>Emily Sanchez</h3>
+                    <p>Blockchain Economist</p>
+                    <p>Professor of Cryptoeconomics at Stanford University.</p>
+                </div>
+                
+                <div class="team-member">
+                    <div class="team-img">MC</div>
+                    <h3>Michael Chen</h3>
+                    <p>Security Expert</p>
+                    <p>Founder of SecurityFirst, a blockchain auditing firm.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Avila Coin</h3>
+                    <p>The next-generation Web3 cryptocurrency designed for scalability, security, and sustainability.</p>
+                    <div class="social-links">
+                        <a href="#">📱</a>
+                        <a href="#">🐦</a>
+                        <a href="#">📷</a>
+                        <a href="#">👔</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" onclick="showPage('home'); return false;">Home</a></li>
+                        <li><a href="#" onclick="showPage('technology'); return false;">Technology</a></li>
+                        <li><a href="#" onclick="showPage('tokenomics'); return false;">Tokenomics</a></li>
+                        <li><a href="#" onclick="showPage('roadmap'); return false;">Roadmap</a></li>
+                        <li><a href="#" onclick="showPage('team'); return false;">Team</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">White Paper</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Email: info@avilacoin.com</p>
+                    <p>For media inquiries: press@avilacoin.com</p>
+                    <p>For partnerships: partners@avilacoin.com</p>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Avila Coin. All rights reserved.</p>
+                <p>Disclaimer: This website is for informational purposes only and does not constitute financial advice.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

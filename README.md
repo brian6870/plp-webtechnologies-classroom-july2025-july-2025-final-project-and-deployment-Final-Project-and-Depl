@@ -1,90 +1,43 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# Avila Coin - Web3 Cryptocurrency Project
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+Avila Coin is a next-generation Web3 cryptocurrency designed for scalability, security, and sustainability. This project showcases a modern, responsive landing page for Avila Coin, highlighting its technology, tokenomics, roadmap, and team.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+## Features
 
----
+- **Single Page Navigation:** Seamless navigation between Home, Technology, Tokenomics, Roadmap, and Team sections.
+- **Responsive Design:** Optimized for desktop and mobile devices.
+- **Modern UI:** Stylish cards, hero section, timeline roadmap, and team grid.
+- **Mobile Menu:** Hamburger menu for easy navigation on smaller screens.
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+## Project Structure
 
-Before you write any code, take time to plan:
+- **index.html:** Main HTML file containing all sections.
+- **styles/styles.css:** Custom CSS for layout, colors, and responsiveness.
+- **js/scripts.js:** JavaScript for navigation and menu interactions.
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+## Getting Started
 
-**Goal:** Show intentional structure and user journey across the site.
+1. **Clone or Download the Repository**
+2. **Open `index.html` in your browser**
 
----
+No build steps or dependencies required.
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+## Usage
 
-Using your plan, begin building:
+- Click navigation links or use the menu to explore different sections.
+- The site is fully static and can be deployed to any web server or hosting platform.
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+## Customization
 
-Each page should:
+- Update content in `index.html` to reflect your own project details.
+- Modify styles in `styles/styles.css` for branding.
+- Enhance interactivity in `js/scripts.js` as needed.
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
+## License
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
-
----
-
-## 🛠️🚀 Part 3: Best Practices for Code Organization
-
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+This project is for educational and demonstration purposes.
 
 ---
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
-
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
-
----
-
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+**Contact:** info@avilacoin.com  
+**Disclaimer:** This website is for informational purposes only and  does not constitute financial advice.
